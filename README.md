@@ -1,4 +1,5 @@
 # Portfolio
 
-Welcome to my personal projects!
-You can check them out by topic.
+Welcome to my personal projects portfolio!
+
+Feel free to check them out by topic.
