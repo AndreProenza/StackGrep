@@ -26,7 +26,7 @@ filtering fileName filterList' filter' = do
     else (if filter' == "pop" 
           then do
               content <- readFile fileName
-              if ((length filterList') == 1) --Se for o penúltimo pop
+              if ((length filterList') == 1)
               then do
                   putStrLn content
                   putStrLn "Filtering:"
@@ -64,7 +64,7 @@ addToFilterList = (++)
 removeFromFilterList :: [String] -> [String]
 removeFromFilterList = init
 
--- FIlter the file
+-- Filter the file
 -- Receives a string which represents the file content, and a filter list.
 -- Returns a list of strings with the file filtered
 filterFile :: String -> [String] -> [String]
