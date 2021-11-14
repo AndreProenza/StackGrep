@@ -1,8 +1,8 @@
 -- @Author André Proenza
 
--- Compile: ghc --make grep
--- Run: ./grep
--- or compile and run once: runhaskell grep.hs file.txt
+-- Compile: ghc --make StackGrep
+-- Run: ./StackGrep
+-- or compile and run once: runhaskell StackGrep.hs file.txt
 
 import System.IO 
 import System.Environment
