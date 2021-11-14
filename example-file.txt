@@ -1,0 +1,5 @@
+[haskell] Data.List
+[haskell] System.Environment
+[java] java.util.List
+[java] java.util.ArrayList
+[java] java.io.File
