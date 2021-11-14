@@ -95,6 +95,13 @@ One last `"pop"` terminates the program.
 
 ---
 
+### Requirements:
+
+- Haskell installed
+
+Install here: https://www.haskell.org/
+
+---
 
 ### Usage:
 
