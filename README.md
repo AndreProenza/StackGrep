@@ -108,5 +108,5 @@ ghc --make StackGrep
 ```
 #### Compile and run once
 ```bash
-runhaskell StackGrep.hs <file.txt>
+runhaskell StackGrep.hs example-file.txt
 ```
