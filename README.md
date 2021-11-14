@@ -7,6 +7,9 @@
 `StackGrep` is a Haskell program that receives a file
 as the only parameter on the command line. The program should
 display all the lines in that file and prompt the user which string to filter.
+The program filters the file and shows only the lines that contain the filtered strings.
+`pop` is special string that removes a filter from the filtered string stack.
+The program terminates when introduced a `pop` string, and when there are no filters in the stack.
 
 
 ## Example
